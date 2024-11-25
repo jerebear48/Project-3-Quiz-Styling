@@ -1,0 +1,51 @@
+body {
+    font-family: Copperplate,Copperplate Gothic Light,fantasy; color: pink;
+    text-align: center;
+ }
+
+.content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.bingus {
+    margin-left: 40px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    background-color: pink;
+    color: white;
+    border: 0.2em solid pink;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+a:hover, a:active {
+    background-color: rgb(215, 181, 187);
+}
+
+.list {
+    list-style-type: none;
+    line-height: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.ul, a:link, a:visited {
+    line-height: 3rem;
+    padding: 0;
+    margin: 20px;
+    list-style-type: none;
+}
+
+nav {
+    margin-top: 20px;
+    margin-right: 40px;
+}
